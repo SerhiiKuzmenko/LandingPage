@@ -1,0 +1,235 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	font-weight: 900;
+}
+
+span{
+	font-size: 50px;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	background: -webkit-linear-gradient(90deg, rgb(0, 196, 255), rgb(55, 143, 217));
+	background: -moz-linear-gradient(90deg, rgb(0, 196, 255), rgb(55, 143, 217));
+	background: linear-gradient(90deg, rgb(0, 196, 255), rgb(55, 143, 217));
+	padding-top: 62px;
+	color: #fff;
+	padding-bottom: 144px;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*.animated{
+	opacity: 0;
+}*/
+
+.first{
+	line-height: 1.6em;
+	width: 551px;
+	font-size: 30px;
+}
+
+.red{
+	color: red;
+}
+
+.second{
+	margin-top: 30px;
+	width: 396px;
+	font-size: 16px;
+	margin-bottom: 44px;
+}
+.case{
+	margin-top: 25px;
+}
+
+.btn{
+	background: #ffd429;
+	font-family: 'Montserrat', sans-serif;
+	color: #2e2a1b;
+	display: block;
+	width: 221px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover{
+	background: #dcc775;
+}
+
+.info{
+	padding-top: 108px;
+	padding-bottom: 123px;
+}
+
+.mainfo{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.skills{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.skill{
+	width: 296px;
+	text-align: center;
+}
+
+.stitle{
+	font-size: 19px;
+}
+
+
+.time{
+	margin-bottom: 25px;
+}
+
+
+
+.mail{
+	background: #ecf3f8;
+	padding-top: 105px;
+	padding-bottom: 103px;
+}
+
+.form{
+	margin-top: 63px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input{
+	width: 343px;
+	height: 47px;
+	margin-bottom: 18px;
+	border: 1px solid #bbb;
+	border-radius: 4px;
+	color: #85828c;
+	padding-left: 24px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.bwidth{
+	background: #ffd429;
+	font-family: 'Montserrat', sans-serif;
+	color: #2e2a1b;
+	display: block;
+	width: 343px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	border: none;
+	cursor: pointer;
+}
+
+.bwidth:hover{
+	background: #dcc775;
+}
+
+.last{
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer{
+	background: #164d7a;
+	padding-top: 63px;
+	padding-bottom: 66px;
+	text-align: center;
+}
+
+/* @media screen and (max-width: 1400px){
+	.container{
+		width: 1140px;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 960px;
+	}
+	.wrapper{
+		flex-direction: column;
+	}
+	.offer{
+		width: 100%;
+	}
+	.first{
+		width: auto;
+	}
+	.second{
+		width: auto;
+	}
+	.case{
+		display: block;
+		width: 641px;
+		margin: 25px auto 0;
+	}
+
+}
+
+@media screen and (max-width: 992px){
+	.container{
+		width: 720px;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 540px;
+	}
+	.skills{
+		flex-direction: column;
+	}
+	.skill{
+		width: auto;
+		margin-bottom: 20px;
+	}
+	.case{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.container{
+		width: 90%;
+	}
+	.input{
+		width: 100%;
+	}
+	.bwidth{
+		width: 100%;
+	}
+} */
